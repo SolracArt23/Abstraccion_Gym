@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Abstraccion/1.0.0": {
+        "dependencies": {
+          "Gimnasio_Roble": "1.0.0"
+        },
+        "runtime": {
+          "Abstraccion.dll": {}
+        }
+      },
+      "Gimnasio_Roble/1.0.0": {
+        "runtime": {
+          "Gimnasio_Roble.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Abstraccion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gimnasio_Roble/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

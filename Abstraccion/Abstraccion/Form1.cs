@@ -11,7 +11,13 @@ namespace Abstraccion
         private void label4_Click(object sender, EventArgs e)
         {
             WebBrowser web = new WebBrowser();
-            web.Navigate("https://github.com/SolracArt23/lector",true);
+            troll t = new troll();
+            web.Parent= t;
+            web.Dock= DockStyle.Fill;
+            web.Url = new Uri("https://www.bing.com/videos/search?q=rickr+roll+vim&view=detail&mid=CFAC16CA30B5EF2ADD68CFAC16CA30B",true);
+            //web.Navigate("https://www.bing.com/videos/search?q=rickr+roll+vim&view=detail&mid=CFAC16CA30B5EF2ADD68CFAC16CA30B");
+     
+            //t.Show();
         }
 
         private void Validacion_Click(object sender, EventArgs e)
